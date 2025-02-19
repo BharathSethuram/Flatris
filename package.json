@@ -20,7 +20,7 @@
     "dev": "next dev",
     "build": "next build ",
     "start": "next start"
-    "start": "babel-node server/start-prod.js"
+   
   },
   "dependencies": {
     "body-parser": "^1.19.0",

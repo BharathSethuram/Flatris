@@ -17,7 +17,9 @@
     "dev:client": "babel-node server/start-dev-client.js",
     "dev:server": "babel-node server/start-dev-server.js",
     "dev:server:watch": "nodemon server/start-dev-server.js  --exec babel-node",
-    "build": "next build web",
+    "dev": "next dev",
+    "build": "next build ",
+    "start": "next start"
     "start": "babel-node server/start-prod.js"
   },
   "dependencies": {
